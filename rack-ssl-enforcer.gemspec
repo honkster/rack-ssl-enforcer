@@ -3,7 +3,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require 'rack/ssl-enforcer/version'
 
 Gem::Specification.new do |s|
-  s.name        = "rack-ssl-enforcer"
+  s.name        = "honkster-rack-ssl-enforcer"
   s.version     = Rack::SslEnforcer::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Tobias Matthies", "Thibaud Guillaume-Gentil"]
